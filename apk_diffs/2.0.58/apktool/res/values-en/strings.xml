@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Coupang Flex</string>
+    <string name="cancel">취소</string>
+    <string name="confirm_upload_picture">사진 첨부하기</string>
+    <string name="custom_camera_detect_blur">촬영한 사진에 초점이 맞지 않습니다.</string>
+    <string name="custom_camera_do_not_have_camera_permission">카메라에 실행에 필요한 권한이 없습니다.</string>
+    <string name="custom_camera_fail_to_connect_camera">카메라에 연결할 수 없습니다.</string>
+    <string name="custom_camera_next">건너뛰기</string>
+    <string name="custom_camera_opencv_install_disagree_message">OpenCV Manager 설치를 동의 후 다시 시도 바랍니다.</string>
+    <string name="custom_camera_take_picture">사진촬영</string>
+    <string name="custom_camera_taking_picture">스티커 사진</string>
+    <string name="error">오류</string>
+    <string name="fail_to_connect_google_play_service">"구글 플레이 서비스를 이용할 수 없습니다.
+오류코드 : "</string>
+    <string name="fail_to_get_location">위치정보서비스(GPS)를 설정에서 켜주세요.</string>
+    <string name="ok">확인</string>
+    <string name="retry_if_uncommited_object">사람, 집 안/가게 내부 등이 찍혔다면 재촬영해주세요!</string>
+    <string name="retry_take_picture">재촬영</string>
+    <string name="splash_title1">Coupang</string>
+    <string name="splash_title2">Rocket Delivery!</string>
+    <string name="text_box">Box</string>
+    <string name="text_delivery">Deliver</string>
+    <string name="text_fastest_pdd">Fastest PDD</string>
+    <string name="text_house_count_format">%d</string>
+    <string name="text_parcel_count_format">%d</string>
+    <string name="text_parcel_count_format2">Total: %d</string>
+</resources>

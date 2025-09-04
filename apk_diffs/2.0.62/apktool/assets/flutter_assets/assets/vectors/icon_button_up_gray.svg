@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+    <defs>
+        <rect id="a" width="190" height="56" x="153" rx="2"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#EEE" d="M-304-478H71v701h-375z"/>
+        <path fill="#FFFFFF" d="M-304-9H71v81h-375z"/>
+        <rect width="189" height="55" x="153.5" y=".5" stroke="#CCC" rx="2" transform="translate(-288 -1)"/>
+        <g fill="#CCC">
+            <path d="M20 26h14v2H20z"/>
+            <path d="M28 20v14h-2V20z"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>0E7EFB88-BCAA-496F-8CA6-184230557C9B</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.494118 0 0 0 0 0.494118 0 0 0 0 0.494118 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.배송목록_Full-Screen-Copy" transform="translate(-212.000000, -182.000000)">
+            <g id="Group" transform="translate(0.000000, 164.000000)">
+                <g id="Group-2" transform="translate(0.000000, 0.000000)">
+                    <g id="배송대기" transform="translate(0.000000, 0.000000)">
+                        <g id="Element/Icon/1.Fill//ic_location_fill_updated" transform="translate(212.000000, 18.000000)" filter="url(#filter-1)">
+                            <g>
+                                <rect id="ic_location_fill" fill="#FFFFFF" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                                <path d="M8,1.33333333 C10.8,1.33333333 13.3333333,3.48 13.3333333,6.8 C13.3333333,8.91710145 11.7047511,11.406276 8.453421,14.273358 L8,14.6666667 C4.44666667,11.6333333 2.66666667,9.01333333 2.66666667,6.8 C2.66666667,3.48 5.2,1.33333333 8,1.33333333 Z M8,5.33333333 C7.26666667,5.33333333 6.66666667,5.93333333 6.66666667,6.66666667 C6.66666667,7.4 7.26666667,8 8,8 C8.73333333,8 9.33333333,7.4 9.33333333,6.66666667 C9.33333333,5.93333333 8.73333333,5.33333333 8,5.33333333 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

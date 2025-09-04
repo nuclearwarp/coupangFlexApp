@@ -1,0 +1,16 @@
+﻿# .NET / VS
+**/bin/
+**/obj/
+**/dist/
+**/publish/
+.vs/
+*.user
+*.suo
+# 중간/캐시/테스트 산출물
+*.pdb
+*.cache
+*.log
+# 대형 산출물(실행파일 등은 릴리즈에 업로드)
+*.exe
+*.msi
+*.zip

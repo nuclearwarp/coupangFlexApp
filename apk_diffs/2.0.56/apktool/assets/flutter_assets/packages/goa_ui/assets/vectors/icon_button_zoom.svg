@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="30px" version="1.1" viewBox="0 0 30 30" width="30px"
+    xmlns="http://www.w3.org/2000/svg">
+    <title>703CD5DB-9983-4A89-A553-FC07C9E6DD8D</title>
+    <g fill="none" fill-rule="evenodd" id="App_02.반품/반송-" stroke="none" stroke-width="1">
+        <g id="02-4.손망실-등록1-copy-7" transform="translate(-86.000000, -1197.000000)">
+            <g id="Con" transform="translate(0.000000, 76.000000)">
+                <g id="Photo" transform="translate(0.000000, 941.000000)">
+                    <g id="img1" transform="translate(16.000000, 80.000000)">
+                        <g id="Icon/IconButton.Zoom" transform="translate(70.000000, 100.000000)">
+                            <rect fill="#000000" fill-opacity="0.5" height="30" id="Rectangle"
+                                width="30" x="0" y="0"></rect>
+                            <path
+                                d="M4,4 L4,9 L3,9 L3,3 L9,3 L9,4 L4,4 Z M26,4 L21,4 L21,3 L27,3 L27,9 L26,9 L26,4 Z M4,26 L9,26 L9,27 L3,27 L3,21 L4,21 L4,26 Z M26,26 L26,21 L27,21 L27,27 L21,27 L21,26 L26,26 Z"
+                                fill="#FFFFFF" id="Shape"></path>
+                            <circle cx="14" cy="14" id="Oval" r="4.25" stroke="#FFFFFF"
+                                stroke-width="1.5"></circle>
+                            <rect fill="#FFFFFF" height="1.5" id="Rectangle"
+                                transform="translate(18.750000, 18.750000) rotate(45.000000) translate(-18.750000, -18.750000) "
+                                width="5.5" x="16" y="18"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

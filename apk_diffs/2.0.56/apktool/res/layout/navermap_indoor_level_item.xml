@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/navermap_indoor_control_item_background" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="#ff333333" android:layout_gravity="center" android:id="@id/navermap_level" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="9.0dip" android:textColor="#ffb0b0b0" android:layout_gravity="center|bottom" android:id="@id/navermap_connection" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/navermap_pathway" />
+</FrameLayout>

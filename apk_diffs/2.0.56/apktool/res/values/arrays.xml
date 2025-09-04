@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>中文</item>
+        <item>Čeština</item>
+        <item>Nederlands</item>
+        <item>Deutsch</item>
+        <item>Ελληνικά</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>Русский</item>
+        <item>Español</item>
+        <item>Indonesia</item>
+        <item>Polskie</item>
+        <item>Français</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>en</item>
+        <item>zh</item>
+        <item>cs</item>
+        <item>nl</item>
+        <item>de</item>
+        <item>el</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>ru</item>
+        <item>es</item>
+        <item>in</item>
+        <item>pl</item>
+        <item>fr</item>
+    </string-array>
+    <string-array name="map_type_values">
+        <item>1</item>
+        <item>4</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="navermap_info_menu">
+        <item>@string/navermap_legend</item>
+        <item>@string/navermap_legal_notice</item>
+        <item>@string/navermap_open_source_license</item>
+    </string-array>
+    <string-array name="preferred_coordinate_format_entries">
+        <item>Decimal Degrees</item>
+        <item>Degrees, Minutes, Decimal Seconds</item>
+        <item>Degrees, Decimal Minutes</item>
+    </string-array>
+    <string-array name="preferred_coordinate_format_values">
+        <item>@string/preferences_coordinate_format_dd_key</item>
+        <item>@string/preferences_coordinate_format_dms_key</item>
+        <item>@string/preferences_coordinate_format_ddm_key</item>
+    </string-array>
+    <string-array name="preferred_distance_units_entries">
+        <item>Meters</item>
+        <item>Feet</item>
+    </string-array>
+    <string-array name="preferred_distance_units_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="preferred_speed_units_entries">
+        <item>Meters per second</item>
+        <item>Kilometers per hour</item>
+        <item>Miles per hour</item>
+    </string-array>
+    <string-array name="preferred_speed_units_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="sort_sats">
+        <item>Constellation</item>
+        <item>Carrier Frequency</item>
+        <item>Signal Strength</item>
+        <item>Used in Fix</item>
+        <item>Constellation, Carrier Frequency</item>
+        <item>Constellation, Signal Strength</item>
+        <item>Constellation, Used in Fix</item>
+    </string-array>
+</resources>

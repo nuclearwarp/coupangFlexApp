@@ -1,0 +1,33 @@
+<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter x="-4.1%" y="-3.1%" width="108.3%" height="108.4%" filterUnits="objectBoundingBox" id="a">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter x="-2.4%" y="-4.2%" width="104.7%" height="108.3%" filterUnits="objectBoundingBox" id="b">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter color-interpolation-filters="auto" id="c">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g filter="url(#a)" transform="translate(-254 -494)" fill="none" fill-rule="evenodd">
+        <g filter="url(#b)" transform="translate(0 173)">
+            <g transform="translate(254 321)" filter="url(#c)">
+                <path d="M0 0h20v20H0z"/>
+                <path d="M10.547 4.117c.909.138 1.112.564 1.097 1.011l-.082 2.477h3.44c.414 0 .79.17 1.06.441.271.272.439.647.438 1.061 0 .627-.024 1.25-.07 1.87A26.644 26.644 0 0 1 16 14.133a1.5 1.5 0 0 1-.62.946c-.496.301-.834.422-1.168.422H7.5V9.294zM7 8.5l.5 6.5-3.5.5L3.5 9 7 8.5z" stroke="#666"/>
+            </g>
+        </g>
+    </g>
+</svg>

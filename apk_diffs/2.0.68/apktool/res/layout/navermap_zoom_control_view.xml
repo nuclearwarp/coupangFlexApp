@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/navermap_zoom_in" android:layout_width="46.0dip" android:layout_height="43.0dip" android:contentDescription="@string/navermap_zoom_in" app:srcCompat="@drawable/navermap_zoom_in" />
+    <View android:background="@drawable/navermap_zoom_div" android:layout_width="46.0dip" android:layout_height="1.0dip" />
+    <ImageView android:id="@id/navermap_zoom_out" android:layout_width="46.0dip" android:layout_height="45.0dip" android:contentDescription="@string/navermap_zoom_out" app:srcCompat="@drawable/navermap_zoom_out" />
+</merge>

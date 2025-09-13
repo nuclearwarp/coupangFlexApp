@@ -1,0 +1,27 @@
+<svg width="328" height="488" viewBox="0 0 328 488" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" gradientTransform="matrix(0 -1 1.02532 0 -.013 1)" id="7cz48zod0d">
+            <stop stop-color="#F7FAFF" offset="0%"/>
+            <stop stop-color="#E5F1FF" offset="100%"/>
+        </radialGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="5jvsy66vxb">
+            <stop stop-color="#B0D9FF" offset="0%"/>
+            <stop stop-color="#D9DEEC" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <rect id="zqvl4cv8xa" x="0" y="0" width="328" height="488" rx="10"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <mask id="ore11vbj4c" fill="#fff">
+                <use xlink:href="#zqvl4cv8xa"/>
+            </mask>
+            <use fill="#D8EDFF" xlink:href="#zqvl4cv8xa"/>
+            <path fill="url(#5jvsy66vxb)" mask="url(#ore11vbj4c)" d="M0 0h328v244H0z"/>
+            <ellipse fill="url(#7cz48zod0d)" mask="url(#ore11vbj4c)" cx="165.106" cy="378" rx="256.106" ry="200"/>
+            <rect fill="#FFF" mask="url(#ore11vbj4c)" x="287" y="27" width="71" height="20" rx="10"/>
+            <rect fill="#FFF" mask="url(#ore11vbj4c)" x="-47" y="124" width="73" height="20" rx="10"/>
+            <rect fill="#FFF" mask="url(#ore11vbj4c)" x="307" y="45" width="71" height="20" rx="10"/>
+            <rect fill="#FFF" mask="url(#ore11vbj4c)" x="-27" y="144" width="73" height="20" rx="10"/>
+        </g>
+    </g>
+</svg>

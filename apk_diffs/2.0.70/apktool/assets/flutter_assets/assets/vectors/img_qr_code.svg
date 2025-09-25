@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+        width="10dp"
+        height="10dp"
+        viewBox="0 0 10 10">
+
+    <path
+            fill="#FFF"
+            fill-rule="evenodd"
+            d="M1 0h2v1H1v2H0V0h1zM9 0h1v3H9V1H7V0h2zM1 9h2v1H0V7h1v2zM9 10H7V9h2V7h1v3H9z" />
+</svg>

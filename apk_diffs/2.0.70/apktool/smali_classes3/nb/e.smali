@@ -1,0 +1,96 @@
+.class final Lnb/e;
+.super Lc8/e;
+.source "ResultObservable.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lnb/e$a;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lc8/e<",
+        "Lnb/d<",
+        "TT;>;>;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final i:Lc8/e;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lc8/e<",
+            "Lmb/y<",
+            "TT;>;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method constructor <init>(Lc8/e;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lc8/e<",
+            "Lmb/y<",
+            "TT;>;>;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Lc8/e;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lnb/e;->i:Lc8/e;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method protected o(Lc8/g;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lc8/g<",
+            "-",
+            "Lnb/d<",
+            "TT;>;>;)V"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lnb/e;->i:Lc8/e;
+
+    .line 2
+    .line 3
+    new-instance v1, Lnb/e$a;
+
+    .line 4
+    .line 5
+    invoke-direct {v1, p1}, Lnb/e$a;-><init>(Lc8/g;)V
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-virtual {v0, v1}, Lc8/e;->d(Lc8/g;)V
+
+    .line 9
+    .line 10
+    .line 11
+    return-void
+.end method

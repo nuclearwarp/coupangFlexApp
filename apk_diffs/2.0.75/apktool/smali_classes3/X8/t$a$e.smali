@@ -1,0 +1,146 @@
+.class final LX8/t$a$e;
+.super LO8/o;
+.source "KPackageImpl.kt"
+
+# interfaces
+.implements LN8/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = LX8/t$a;-><init>(LX8/t;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LO8/o;",
+        "LN8/a<",
+        "LN9/h;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0002\u001a\n \u0001*\u0004\u0018\u00010\u00000\u0000H\n\u00a2\u0006\u0004\u0008\u0002\u0010\u0003"
+    }
+    d2 = {
+        "LN9/h;",
+        "kotlin.jvm.PlatformType",
+        "a",
+        "()LN9/h;"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic i:LX8/t$a;
+
+
+# direct methods
+.method constructor <init>(LX8/t$a;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, LX8/t$a$e;->i:LX8/t$a;
+
+    .line 2
+    .line 3
+    const/4 p1, 0x0
+
+    .line 4
+    invoke-direct {p0, p1}, LO8/o;-><init>(I)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()LN9/h;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, LX8/t$a$e;->i:LX8/t$a;
+
+    .line 2
+    .line 3
+    invoke-static {v0}, LX8/t$a;->b(LX8/t$a;)Li9/f;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    iget-object v1, p0, LX8/t$a$e;->i:LX8/t$a;
+
+    .line 10
+    .line 11
+    invoke-virtual {v1}, LX8/n$b;->a()Li9/k;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v1
+
+    .line 15
+    invoke-virtual {v1}, Li9/k;->c()Li9/a;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v1
+
+    .line 19
+    invoke-virtual {v1, v0}, Li9/a;->a(Li9/f;)LN9/h;
+
+    .line 20
+    .line 21
+    .line 22
+    move-result-object v0
+
+    .line 23
+    goto :goto_0
+
+    .line 24
+    :cond_0
+    sget-object v0, LN9/h$b;->b:LN9/h$b;
+
+    .line 25
+    .line 26
+    :goto_0
+    return-object v0
+.end method
+
+.method public bridge synthetic invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, LX8/t$a$e;->a()LN9/h;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    return-object v0
+.end method

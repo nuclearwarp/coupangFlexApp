@@ -1,0 +1,976 @@
+.class public LGa/j;
+.super Ljava/lang/Object;
+.source "Platform.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        LGa/j$a;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000z\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0005\n\u0002\u0010\u0003\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\t\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0008\u0016\u0018\u0000 <2\u00020\u0001:\u0001<B\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\u0003J\u000f\u0010\u0005\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u000f\u0010\u0008\u001a\u00020\u0007H\u0016\u00a2\u0006\u0004\u0008\u0008\u0010\tJ4\u0010\u0013\u001a\u00020\u00122\u0006\u0010\u000b\u001a\u00020\n2\u0008\u0010\r\u001a\u0004\u0018\u00010\u000c2\u0011\u0010\u0011\u001a\r\u0012\t\u0012\u00070\u000f\u00a2\u0006\u0002\u0008\u00100\u000eH\u0016\u00a2\u0006\u0004\u0008\u0013\u0010\u0014J\u0017\u0010\u0015\u001a\u00020\u00122\u0006\u0010\u000b\u001a\u00020\nH\u0016\u00a2\u0006\u0004\u0008\u0015\u0010\u0016J\u0019\u0010\u0017\u001a\u0004\u0018\u00010\u000c2\u0006\u0010\u000b\u001a\u00020\nH\u0016\u00a2\u0006\u0004\u0008\u0017\u0010\u0018J\'\u0010\u001f\u001a\u00020\u00122\u0006\u0010\u001a\u001a\u00020\u00192\u0006\u0010\u001c\u001a\u00020\u001b2\u0006\u0010\u001e\u001a\u00020\u001dH\u0016\u00a2\u0006\u0004\u0008\u001f\u0010 J-\u0010%\u001a\u00020\u00122\u0006\u0010!\u001a\u00020\u000c2\u0008\u0008\u0002\u0010\"\u001a\u00020\u001d2\n\u0008\u0002\u0010$\u001a\u0004\u0018\u00010#H\u0016\u00a2\u0006\u0004\u0008%\u0010&J\u0017\u0010(\u001a\u00020\'2\u0006\u0010\r\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008(\u0010)J\u0019\u0010+\u001a\u0004\u0018\u00010\u00012\u0006\u0010*\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008+\u0010,J!\u0010.\u001a\u00020\u00122\u0006\u0010!\u001a\u00020\u000c2\u0008\u0010-\u001a\u0004\u0018\u00010\u0001H\u0016\u00a2\u0006\u0004\u0008.\u0010/J\u0017\u00102\u001a\u0002012\u0006\u00100\u001a\u00020\u0007H\u0016\u00a2\u0006\u0004\u00082\u00103J\u0017\u00105\u001a\u0002042\u0006\u00100\u001a\u00020\u0007H\u0016\u00a2\u0006\u0004\u00085\u00106J\u0017\u00108\u001a\u0002072\u0006\u00100\u001a\u00020\u0007H\u0016\u00a2\u0006\u0004\u00088\u00109J\u000f\u0010:\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008:\u0010;\u00a8\u0006="
+    }
+    d2 = {
+        "LGa/j;",
+        "",
+        "<init>",
+        "()V",
+        "Ljavax/net/ssl/SSLContext;",
+        "m",
+        "()Ljavax/net/ssl/SSLContext;",
+        "Ljavax/net/ssl/X509TrustManager;",
+        "o",
+        "()Ljavax/net/ssl/X509TrustManager;",
+        "Ljavax/net/ssl/SSLSocket;",
+        "sslSocket",
+        "",
+        "hostname",
+        "",
+        "Lwa/A;",
+        "Lkotlin/jvm/JvmSuppressWildcards;",
+        "protocols",
+        "LA8/w;",
+        "e",
+        "(Ljavax/net/ssl/SSLSocket;Ljava/lang/String;Ljava/util/List;)V",
+        "b",
+        "(Ljavax/net/ssl/SSLSocket;)V",
+        "g",
+        "(Ljavax/net/ssl/SSLSocket;)Ljava/lang/String;",
+        "Ljava/net/Socket;",
+        "socket",
+        "Ljava/net/InetSocketAddress;",
+        "address",
+        "",
+        "connectTimeout",
+        "f",
+        "(Ljava/net/Socket;Ljava/net/InetSocketAddress;I)V",
+        "message",
+        "level",
+        "",
+        "t",
+        "j",
+        "(Ljava/lang/String;ILjava/lang/Throwable;)V",
+        "",
+        "i",
+        "(Ljava/lang/String;)Z",
+        "closer",
+        "h",
+        "(Ljava/lang/String;)Ljava/lang/Object;",
+        "stackTrace",
+        "l",
+        "(Ljava/lang/String;Ljava/lang/Object;)V",
+        "trustManager",
+        "LJa/c;",
+        "c",
+        "(Ljavax/net/ssl/X509TrustManager;)LJa/c;",
+        "LJa/e;",
+        "d",
+        "(Ljavax/net/ssl/X509TrustManager;)LJa/e;",
+        "Ljavax/net/ssl/SSLSocketFactory;",
+        "n",
+        "(Ljavax/net/ssl/X509TrustManager;)Ljavax/net/ssl/SSLSocketFactory;",
+        "toString",
+        "()Ljava/lang/String;",
+        "a",
+        "okhttp"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x6,
+        0x0
+    }
+.end annotation
+
+
+# static fields
+.field public static final a:LGa/j$a;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+.field private static volatile b:LGa/j;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+.field private static final c:Ljava/util/logging/Logger;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, LGa/j$a;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    invoke-direct {v0, v1}, LGa/j$a;-><init>(LO8/g;)V
+
+    .line 5
+    .line 6
+    .line 7
+    sput-object v0, LGa/j;->a:LGa/j$a;
+
+    .line 8
+    .line 9
+    invoke-static {v0}, LGa/j$a;->a(LGa/j$a;)LGa/j;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    sput-object v0, LGa/j;->b:LGa/j;
+
+    .line 14
+    .line 15
+    const-class v0, Lwa/z;
+
+    .line 16
+    .line 17
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object v0
+
+    .line 21
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    .line 22
+    .line 23
+    .line 24
+    move-result-object v0
+
+    .line 25
+    sput-object v0, LGa/j;->c:Ljava/util/logging/Logger;
+
+    .line 26
+    .line 27
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static final synthetic a()LGa/j;
+    .locals 1
+
+    .line 1
+    sget-object v0, LGa/j;->b:LGa/j;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public static synthetic k(LGa/j;Ljava/lang/String;ILjava/lang/Throwable;ILjava/lang/Object;)V
+    .locals 1
+
+    .line 1
+    if-nez p5, :cond_2
+
+    .line 2
+    .line 3
+    and-int/lit8 p5, p4, 0x2
+
+    .line 4
+    .line 5
+    const/4 v0, 0x4
+
+    .line 6
+    if-eqz p5, :cond_0
+
+    .line 7
+    .line 8
+    move p2, v0
+
+    .line 9
+    :cond_0
+    and-int/2addr p4, v0
+
+    .line 10
+    if-eqz p4, :cond_1
+
+    .line 11
+    .line 12
+    const/4 p3, 0x0
+
+    .line 13
+    :cond_1
+    invoke-virtual {p0, p1, p2, p3}, LGa/j;->j(Ljava/lang/String;ILjava/lang/Throwable;)V
+
+    .line 14
+    .line 15
+    .line 16
+    return-void
+
+    .line 17
+    :cond_2
+    new-instance p0, Ljava/lang/UnsupportedOperationException;
+
+    .line 18
+    .line 19
+    const-string p1, "Super calls with default arguments not supported in this target, function: log"
+
+    .line 20
+    .line 21
+    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    .line 22
+    .line 23
+    .line 24
+    throw p0
+.end method
+
+
+# virtual methods
+.method public b(Ljavax/net/ssl/SSLSocket;)V
+    .locals 1
+    .param p1    # Ljavax/net/ssl/SSLSocket;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "sslSocket"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, LO8/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public c(Ljavax/net/ssl/X509TrustManager;)LJa/c;
+    .locals 1
+    .param p1    # Ljavax/net/ssl/X509TrustManager;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 1
+    const-string v0, "trustManager"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, LO8/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    new-instance v0, LJa/a;
+
+    .line 7
+    .line 8
+    invoke-virtual {p0, p1}, LGa/j;->d(Ljavax/net/ssl/X509TrustManager;)LJa/e;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object p1
+
+    .line 12
+    invoke-direct {v0, p1}, LJa/a;-><init>(LJa/e;)V
+
+    .line 13
+    .line 14
+    .line 15
+    return-object v0
+.end method
+
+.method public d(Ljavax/net/ssl/X509TrustManager;)LJa/e;
+    .locals 2
+    .param p1    # Ljavax/net/ssl/X509TrustManager;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 1
+    const-string v0, "trustManager"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, LO8/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    new-instance v0, LJa/b;
+
+    .line 7
+    .line 8
+    invoke-interface {p1}, Ljavax/net/ssl/X509TrustManager;->getAcceptedIssuers()[Ljava/security/cert/X509Certificate;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object p1
+
+    .line 12
+    const-string v1, "trustManager.acceptedIssuers"
+
+    .line 13
+    .line 14
+    invoke-static {p1, v1}, LO8/m;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 15
+    .line 16
+    .line 17
+    array-length v1, p1
+
+    .line 18
+    invoke-static {p1, v1}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object p1
+
+    .line 22
+    check-cast p1, [Ljava/security/cert/X509Certificate;
+
+    .line 23
+    .line 24
+    invoke-direct {v0, p1}, LJa/b;-><init>([Ljava/security/cert/X509Certificate;)V
+
+    .line 25
+    .line 26
+    .line 27
+    return-object v0
+.end method
+
+.method public e(Ljavax/net/ssl/SSLSocket;Ljava/lang/String;Ljava/util/List;)V
+    .locals 0
+    .param p1    # Ljavax/net/ssl/SSLSocket;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # Ljava/lang/String;
+        .annotation build Lorg/jetbrains/annotations/Nullable;
+        .end annotation
+    .end param
+    .param p3    # Ljava/util/List;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljavax/net/ssl/SSLSocket;",
+            "Ljava/lang/String;",
+            "Ljava/util/List<",
+            "Lwa/A;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    const-string p2, "sslSocket"
+
+    .line 2
+    .line 3
+    invoke-static {p1, p2}, LO8/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string p1, "protocols"
+
+    .line 7
+    .line 8
+    invoke-static {p3, p1}, LO8/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 9
+    .line 10
+    .line 11
+    return-void
+.end method
+
+.method public f(Ljava/net/Socket;Ljava/net/InetSocketAddress;I)V
+    .locals 1
+    .param p1    # Ljava/net/Socket;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # Ljava/net/InetSocketAddress;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "socket"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, LO8/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v0, "address"
+
+    .line 7
+    .line 8
+    invoke-static {p2, v0}, LO8/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-virtual {p1, p2, p3}, Ljava/net/Socket;->connect(Ljava/net/SocketAddress;I)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+.end method
+
+.method public g(Ljavax/net/ssl/SSLSocket;)Ljava/lang/String;
+    .locals 1
+    .param p1    # Ljavax/net/ssl/SSLSocket;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation build Lorg/jetbrains/annotations/Nullable;
+    .end annotation
+
+    .line 1
+    const-string v0, "sslSocket"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, LO8/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const/4 p1, 0x0
+
+    .line 7
+    return-object p1
+.end method
+
+.method public h(Ljava/lang/String;)Ljava/lang/Object;
+    .locals 2
+    .param p1    # Ljava/lang/String;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation build Lorg/jetbrains/annotations/Nullable;
+    .end annotation
+
+    .line 1
+    const-string v0, "closer"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, LO8/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    sget-object v0, LGa/j;->c:Ljava/util/logging/Logger;
+
+    .line 7
+    .line 8
+    sget-object v1, Ljava/util/logging/Level;->FINE:Ljava/util/logging/Level;
+
+    .line 9
+    .line 10
+    invoke-virtual {v0, v1}, Ljava/util/logging/Logger;->isLoggable(Ljava/util/logging/Level;)Z
+
+    .line 11
+    .line 12
+    .line 13
+    move-result v0
+
+    .line 14
+    if-eqz v0, :cond_0
+
+    .line 15
+    .line 16
+    new-instance v0, Ljava/lang/Throwable;
+
+    .line 17
+    .line 18
+    invoke-direct {v0, p1}, Ljava/lang/Throwable;-><init>(Ljava/lang/String;)V
+
+    .line 19
+    .line 20
+    .line 21
+    goto :goto_0
+
+    .line 22
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 23
+    :goto_0
+    return-object v0
+.end method
+
+.method public i(Ljava/lang/String;)Z
+    .locals 1
+    .param p1    # Ljava/lang/String;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "hostname"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, LO8/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const/4 p1, 0x1
+
+    .line 7
+    return p1
+.end method
+
+.method public j(Ljava/lang/String;ILjava/lang/Throwable;)V
+    .locals 1
+    .param p1    # Ljava/lang/String;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/Throwable;
+        .annotation build Lorg/jetbrains/annotations/Nullable;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "message"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, LO8/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const/4 v0, 0x5
+
+    .line 7
+    if-ne p2, v0, :cond_0
+
+    .line 8
+    .line 9
+    sget-object p2, Ljava/util/logging/Level;->WARNING:Ljava/util/logging/Level;
+
+    .line 10
+    .line 11
+    goto :goto_0
+
+    .line 12
+    :cond_0
+    sget-object p2, Ljava/util/logging/Level;->INFO:Ljava/util/logging/Level;
+
+    .line 13
+    .line 14
+    :goto_0
+    sget-object v0, LGa/j;->c:Ljava/util/logging/Logger;
+
+    .line 15
+    .line 16
+    invoke-virtual {v0, p2, p1, p3}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    .line 17
+    .line 18
+    .line 19
+    return-void
+.end method
+
+.method public l(Ljava/lang/String;Ljava/lang/Object;)V
+    .locals 1
+    .param p1    # Ljava/lang/String;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # Ljava/lang/Object;
+        .annotation build Lorg/jetbrains/annotations/Nullable;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "message"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, LO8/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    if-nez p2, :cond_0
+
+    .line 7
+    .line 8
+    const-string v0, " To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);"
+
+    .line 9
+    .line 10
+    invoke-static {p1, v0}, LO8/m;->n(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object p1
+
+    .line 14
+    :cond_0
+    const/4 v0, 0x5
+
+    .line 15
+    check-cast p2, Ljava/lang/Throwable;
+
+    .line 16
+    .line 17
+    invoke-virtual {p0, p1, v0, p2}, LGa/j;->j(Ljava/lang/String;ILjava/lang/Throwable;)V
+
+    .line 18
+    .line 19
+    .line 20
+    return-void
+.end method
+
+.method public m()Ljavax/net/ssl/SSLContext;
+    .locals 2
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 1
+    const-string v0, "TLS"
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Ljavax/net/ssl/SSLContext;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/SSLContext;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    const-string v1, "getInstance(\"TLS\")"
+
+    .line 8
+    .line 9
+    invoke-static {v0, v1}, LO8/m;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 10
+    .line 11
+    .line 12
+    return-object v0
+.end method
+
+.method public n(Ljavax/net/ssl/X509TrustManager;)Ljavax/net/ssl/SSLSocketFactory;
+    .locals 3
+    .param p1    # Ljavax/net/ssl/X509TrustManager;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 1
+    const-string v0, "trustManager"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, LO8/m;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    :try_start_0
+    invoke-virtual {p0}, LGa/j;->m()Ljavax/net/ssl/SSLContext;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object v0
+
+    .line 10
+    const/4 v1, 0x1
+
+    .line 11
+    new-array v1, v1, [Ljavax/net/ssl/TrustManager;
+
+    .line 12
+    .line 13
+    const/4 v2, 0x0
+
+    .line 14
+    aput-object p1, v1, v2
+
+    .line 15
+    .line 16
+    const/4 p1, 0x0
+
+    .line 17
+    invoke-virtual {v0, p1, v1, p1}, Ljavax/net/ssl/SSLContext;->init([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V
+
+    .line 18
+    .line 19
+    .line 20
+    invoke-virtual {v0}, Ljavax/net/ssl/SSLContext;->getSocketFactory()Ljavax/net/ssl/SSLSocketFactory;
+
+    .line 21
+    .line 22
+    .line 23
+    move-result-object p1
+
+    .line 24
+    const-string v0, "newSSLContext().apply {\n\u2026ll)\n      }.socketFactory"
+
+    .line 25
+    .line 26
+    invoke-static {p1, v0}, LO8/m;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    :try_end_0
+    .catch Ljava/security/GeneralSecurityException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 27
+    .line 28
+    .line 29
+    return-object p1
+
+    .line 30
+    :catch_0
+    move-exception p1
+
+    .line 31
+    new-instance v0, Ljava/lang/AssertionError;
+
+    .line 32
+    .line 33
+    const-string v1, "No System TLS: "
+
+    .line 34
+    .line 35
+    invoke-static {v1, p1}, LO8/m;->n(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 36
+    .line 37
+    .line 38
+    move-result-object v1
+
+    .line 39
+    invoke-direct {v0, v1, p1}, Ljava/lang/AssertionError;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    .line 40
+    .line 41
+    .line 42
+    throw v0
+.end method
+
+.method public o()Ljavax/net/ssl/X509TrustManager;
+    .locals 3
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 1
+    invoke-static {}, Ljavax/net/ssl/TrustManagerFactory;->getDefaultAlgorithm()Ljava/lang/String;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-static {v0}, Ljavax/net/ssl/TrustManagerFactory;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/TrustManagerFactory;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    const/4 v1, 0x0
+
+    .line 10
+    invoke-virtual {v0, v1}, Ljavax/net/ssl/TrustManagerFactory;->init(Ljava/security/KeyStore;)V
+
+    .line 11
+    .line 12
+    .line 13
+    invoke-virtual {v0}, Ljavax/net/ssl/TrustManagerFactory;->getTrustManagers()[Ljavax/net/ssl/TrustManager;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object v0
+
+    .line 17
+    invoke-static {v0}, LO8/m;->c(Ljava/lang/Object;)V
+
+    .line 18
+    .line 19
+    .line 20
+    array-length v1, v0
+
+    .line 21
+    const/4 v2, 0x1
+
+    .line 22
+    if-ne v1, v2, :cond_1
+
+    .line 23
+    .line 24
+    const/4 v1, 0x0
+
+    .line 25
+    aget-object v1, v0, v1
+
+    .line 26
+    .line 27
+    instance-of v2, v1, Ljavax/net/ssl/X509TrustManager;
+
+    .line 28
+    .line 29
+    if-eqz v2, :cond_1
+
+    .line 30
+    .line 31
+    if-eqz v1, :cond_0
+
+    .line 32
+    .line 33
+    check-cast v1, Ljavax/net/ssl/X509TrustManager;
+
+    .line 34
+    .line 35
+    return-object v1
+
+    .line 36
+    :cond_0
+    new-instance v0, Ljava/lang/NullPointerException;
+
+    .line 37
+    .line 38
+    const-string v1, "null cannot be cast to non-null type javax.net.ssl.X509TrustManager"
+
+    .line 39
+    .line 40
+    invoke-direct {v0, v1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+
+    .line 41
+    .line 42
+    .line 43
+    throw v0
+
+    .line 44
+    :cond_1
+    invoke-static {v0}, Ljava/util/Arrays;->toString([Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 45
+    .line 46
+    .line 47
+    move-result-object v0
+
+    .line 48
+    const-string v1, "toString(this)"
+
+    .line 49
+    .line 50
+    invoke-static {v0, v1}, LO8/m;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 51
+    .line 52
+    .line 53
+    const-string v1, "Unexpected default trust managers: "
+
+    .line 54
+    .line 55
+    invoke-static {v1, v0}, LO8/m;->n(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 56
+    .line 57
+    .line 58
+    move-result-object v0
+
+    .line 59
+    new-instance v1, Ljava/lang/IllegalStateException;
+
+    .line 60
+    .line 61
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    .line 62
+    .line 63
+    .line 64
+    move-result-object v0
+
+    .line 65
+    invoke-direct {v1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    .line 66
+    .line 67
+    .line 68
+    throw v1
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 2
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    const-string v1, "javaClass.simpleName"
+
+    .line 10
+    .line 11
+    invoke-static {v0, v1}, LO8/m;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-object v0
+.end method
